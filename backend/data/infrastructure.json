@@ -1,0 +1,17 @@
+{
+  "_meta": {"label": "Representative critical infrastructure (illustrative locations for prototype)"},
+  "facilities": [
+    {"id": "INF-01", "name": "Mangaldai Civil Hospital", "type": "hospital", "district": "darrang", "lat": 26.446, "lon": 92.027},
+    {"id": "INF-02", "name": "Sipajhar PHC", "type": "health_centre", "district": "darrang", "lat": 26.402, "lon": 91.912},
+    {"id": "INF-03", "name": "Kharupetia CHC", "type": "health_centre", "district": "darrang", "lat": 26.517, "lon": 92.147},
+    {"id": "INF-04", "name": "Barpeta FAAMCH (Medical College)", "type": "hospital", "district": "barpeta", "lat": 26.328, "lon": 91.006},
+    {"id": "INF-05", "name": "Dhubri Civil Hospital", "type": "hospital", "district": "dhubri", "lat": 26.021, "lon": 89.985},
+    {"id": "INF-06", "name": "Bilasipara SDCH", "type": "hospital", "district": "dhubri", "lat": 26.232, "lon": 90.238},
+    {"id": "INF-07", "name": "Morigaon Civil Hospital", "type": "hospital", "district": "morigaon", "lat": 26.252, "lon": 92.342},
+    {"id": "INF-08", "name": "Tamulpur CHC", "type": "health_centre", "district": "tamulpur", "lat": 26.632, "lon": 91.672},
+    {"id": "INF-09", "name": "Kokrajhar RNB Civil Hospital", "type": "hospital", "district": "kokrajhar", "lat": 26.401, "lon": 90.272},
+    {"id": "INF-10", "name": "Nagaon BP Civil Hospital", "type": "hospital", "district": "nagaon", "lat": 26.348, "lon": 92.684},
+    {"id": "INF-11", "name": "Dhing CHC", "type": "health_centre", "district": "nagaon", "lat": 26.462, "lon": 92.472},
+    {"id": "INF-12", "name": "Gossaigaon CHC", "type": "health_centre", "district": "kokrajhar", "lat": 26.438, "lon": 89.972}
+  ]
+}

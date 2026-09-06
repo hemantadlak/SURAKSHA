@@ -1,0 +1,596 @@
+{
+  "_meta": {
+    "label": "Prototype / Illustrative Data - candidate relocation sites with planning capacities. Capacities and occupancy are illustrative planning figures, not verified shelter registers."
+  },
+  "sites": [
+    {
+      "id": "S-DRG-01",
+      "name": "Mangaldai Higher Secondary School Relief Camp",
+      "type": "school",
+      "district": "darrang",
+      "lat": 26.443,
+      "lon": 92.031,
+      "total_capacity": 1300,
+      "current_occupancy": 250,
+      "gis": {
+        "rainfall_mm": 2200,
+        "elevation_m": 49,
+        "slope_deg": 0.6,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 9.5,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-15 / Mangaldai town road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": "District HQ town; Mangaldai Civil Hospital 1.2 km."
+    },
+    {
+      "id": "S-DRG-02",
+      "name": "Kharupetia Higher Secondary School Camp",
+      "type": "school",
+      "district": "darrang",
+      "lat": 26.516,
+      "lon": 92.149,
+      "total_capacity": 2800,
+      "current_occupancy": 300,
+      "gis": {
+        "rainfall_mm": 2300,
+        "elevation_m": 35,
+        "slope_deg": 0.3,
+        "soil": "silt_loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 2.8,
+        "years_flooded_5yr": 3
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "Kharupetia town road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": "Largest capacity in the cluster but the campus itself was inundated in 3 of the last 5 monsoons."
+    },
+    {
+      "id": "S-DRG-03",
+      "name": "Sipajhar College Relief Centre",
+      "type": "college",
+      "district": "darrang",
+      "lat": 26.406,
+      "lon": 91.905,
+      "total_capacity": 950,
+      "current_occupancy": 150,
+      "gis": {
+        "rainfall_mm": 2200,
+        "elevation_m": 52,
+        "slope_deg": 0.6,
+        "soil": "loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 4.0,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-15"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": false
+      },
+      "notes": "Sipajhar PHC 0.8 km."
+    },
+    {
+      "id": "S-DRG-04",
+      "name": "Dhula Community Hall",
+      "type": "community_hall",
+      "district": "darrang",
+      "lat": 26.478,
+      "lon": 92.045,
+      "total_capacity": 550,
+      "current_occupancy": 100,
+      "gis": {
+        "rainfall_mm": 2250,
+        "elevation_m": 45,
+        "slope_deg": 0.5,
+        "soil": "loam",
+        "land_cover": "agriculture",
+        "distance_to_water_km": 5.5,
+        "years_flooded_5yr": 1
+      },
+      "access": {
+        "road_type": "fair_weather",
+        "road_name": "Dhula village road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": false,
+        "power": true,
+        "medical_within_5km": false,
+        "kitchen": true
+      },
+      "notes": "Fair-weather approach road; sanitation units would need deployment."
+    },
+    {
+      "id": "S-DRG-05",
+      "name": "Kalaigaon Higher Secondary School",
+      "type": "school",
+      "district": "darrang",
+      "lat": 26.552,
+      "lon": 91.985,
+      "total_capacity": 800,
+      "current_occupancy": 150,
+      "gis": {
+        "rainfall_mm": 2400,
+        "elevation_m": 76,
+        "slope_deg": 1.1,
+        "soil": "loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 8.0,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "Kalaigaon-Mangaldai road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": false
+      },
+      "notes": "Elevated northern location; longer transfer distance from the Brahmaputra chars."
+    },
+    {
+      "id": "S-DRG-06",
+      "name": "NH-15 Embankment High Ground (Bechimari)",
+      "type": "open_ground",
+      "district": "darrang",
+      "lat": 26.502,
+      "lon": 92.192,
+      "total_capacity": 1500,
+      "current_occupancy": 0,
+      "gis": {
+        "rainfall_mm": 2300,
+        "elevation_m": 43,
+        "slope_deg": 0.4,
+        "soil": "silt_loam",
+        "land_cover": "open_ground",
+        "distance_to_water_km": 3.5,
+        "years_flooded_5yr": 1
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-15"
+      },
+      "facilities": {
+        "water": false,
+        "sanitation": false,
+        "power": false,
+        "medical_within_5km": false,
+        "kitchen": false
+      },
+      "notes": "Open embankment ground used informally during past floods; no water or sanitation facilities."
+    },
+    {
+      "id": "S-BPT-01",
+      "name": "Barpeta Road College Relief Camp",
+      "type": "college",
+      "district": "barpeta",
+      "lat": 26.502,
+      "lon": 90.968,
+      "total_capacity": 1200,
+      "current_occupancy": 400,
+      "gis": {
+        "rainfall_mm": 2500,
+        "elevation_m": 50,
+        "slope_deg": 0.7,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 7.5,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-27"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-BPT-02",
+      "name": "Mandia Higher Secondary School",
+      "type": "school",
+      "district": "barpeta",
+      "lat": 26.268,
+      "lon": 90.925,
+      "total_capacity": 1000,
+      "current_occupancy": 200,
+      "gis": {
+        "rainfall_mm": 2400,
+        "elevation_m": 39,
+        "slope_deg": 0.3,
+        "soil": "silt_loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 2.0,
+        "years_flooded_5yr": 3
+      },
+      "access": {
+        "road_type": "fair_weather",
+        "road_name": "Mandia road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": false,
+        "kitchen": true
+      },
+      "notes": "Campus itself flooded in 3 of the last 5 years."
+    },
+    {
+      "id": "S-BPT-03",
+      "name": "Sarthebari Town Hall",
+      "type": "community_hall",
+      "district": "barpeta",
+      "lat": 26.302,
+      "lon": 91.198,
+      "total_capacity": 600,
+      "current_occupancy": 150,
+      "gis": {
+        "rainfall_mm": 2350,
+        "elevation_m": 46,
+        "slope_deg": 0.5,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 5.0,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "Sarthebari road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": false
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-DHB-01",
+      "name": "Bilasipara College Relief Camp",
+      "type": "college",
+      "district": "dhubri",
+      "lat": 26.236,
+      "lon": 90.241,
+      "total_capacity": 900,
+      "current_occupancy": 200,
+      "gis": {
+        "rainfall_mm": 2600,
+        "elevation_m": 47,
+        "slope_deg": 0.6,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 6.0,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-17"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-DHB-02",
+      "name": "Chapar Higher Secondary School",
+      "type": "school",
+      "district": "dhubri",
+      "lat": 26.272,
+      "lon": 90.216,
+      "total_capacity": 700,
+      "current_occupancy": 100,
+      "gis": {
+        "rainfall_mm": 2600,
+        "elevation_m": 43,
+        "slope_deg": 0.5,
+        "soil": "silt_loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 4.0,
+        "years_flooded_5yr": 1
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-17"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": false
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-MRG-01",
+      "name": "Morigaon College Relief Camp",
+      "type": "college",
+      "district": "morigaon",
+      "lat": 26.252,
+      "lon": 92.338,
+      "total_capacity": 1400,
+      "current_occupancy": 300,
+      "gis": {
+        "rainfall_mm": 2100,
+        "elevation_m": 52,
+        "slope_deg": 0.6,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 6.5,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-715"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-MRG-02",
+      "name": "Laharighat Higher Secondary School",
+      "type": "school",
+      "district": "morigaon",
+      "lat": 26.362,
+      "lon": 92.492,
+      "total_capacity": 1800,
+      "current_occupancy": 200,
+      "gis": {
+        "rainfall_mm": 2150,
+        "elevation_m": 37,
+        "slope_deg": 0.3,
+        "soil": "silt_loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 1.6,
+        "years_flooded_5yr": 3
+      },
+      "access": {
+        "road_type": "fair_weather",
+        "road_name": "Laharighat road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": false,
+        "kitchen": true
+      },
+      "notes": "Large campus, but inundated during the 2022 event."
+    },
+    {
+      "id": "S-MRG-03",
+      "name": "Jagiroad Higher Secondary School",
+      "type": "school",
+      "district": "morigaon",
+      "lat": 26.168,
+      "lon": 92.212,
+      "total_capacity": 700,
+      "current_occupancy": 100,
+      "gis": {
+        "rainfall_mm": 2050,
+        "elevation_m": 58,
+        "slope_deg": 0.9,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 7.0,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-27"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": false
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-TMP-01",
+      "name": "Tamulpur Higher Secondary School",
+      "type": "school",
+      "district": "tamulpur",
+      "lat": 26.636,
+      "lon": 91.668,
+      "total_capacity": 900,
+      "current_occupancy": 150,
+      "gis": {
+        "rainfall_mm": 3000,
+        "elevation_m": 70,
+        "slope_deg": 1.5,
+        "soil": "loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 4.5,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "Tamulpur-Rangia road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-TMP-02",
+      "name": "Goreswar College",
+      "type": "college",
+      "district": "tamulpur",
+      "lat": 26.596,
+      "lon": 91.662,
+      "total_capacity": 700,
+      "current_occupancy": 100,
+      "gis": {
+        "rainfall_mm": 2900,
+        "elevation_m": 61,
+        "slope_deg": 1.6,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 3.5,
+        "years_flooded_5yr": 1
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "Goreswar road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": false
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-KKJ-01",
+      "name": "Gossaigaon College",
+      "type": "college",
+      "district": "kokrajhar",
+      "lat": 26.442,
+      "lon": 89.975,
+      "total_capacity": 800,
+      "current_occupancy": 200,
+      "gis": {
+        "rainfall_mm": 2800,
+        "elevation_m": 58,
+        "slope_deg": 1.0,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 5.5,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-27"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-NGN-01",
+      "name": "Dhing College Relief Camp",
+      "type": "college",
+      "district": "nagaon",
+      "lat": 26.462,
+      "lon": 92.475,
+      "total_capacity": 1000,
+      "current_occupancy": 250,
+      "gis": {
+        "rainfall_mm": 2000,
+        "elevation_m": 45,
+        "slope_deg": 0.5,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 4.5,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "Dhing-Nagaon road"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "S-NGN-02",
+      "name": "Nagaon Kalyan Bhawan",
+      "type": "community_hall",
+      "district": "nagaon",
+      "lat": 26.352,
+      "lon": 92.676,
+      "total_capacity": 1000,
+      "current_occupancy": 300,
+      "gis": {
+        "rainfall_mm": 1950,
+        "elevation_m": 56,
+        "slope_deg": 0.7,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 3.0,
+        "years_flooded_5yr": 0
+      },
+      "access": {
+        "road_type": "all_weather",
+        "road_name": "NH-27"
+      },
+      "facilities": {
+        "water": true,
+        "sanitation": true,
+        "power": true,
+        "medical_within_5km": true,
+        "kitchen": true
+      },
+      "notes": ""
+    }
+  ]
+}

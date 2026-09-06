@@ -1,0 +1,668 @@
+{
+  "_meta": {
+    "label": "Prototype / Illustrative Data - settlement-level values derived by disaggregating ASDMA district data using population density and a configurable exposure weight. Not an official measurement.",
+    "gis_layers": "Rainfall (IMD gridded), Elevation (SRTM/ASTER DEM), Slope (derived from DEM), Soil (NBSS-LUP), Land cover (Bhuvan LULC), Distance from water (OSM hydrology / CWC), Historical extent (ASDMA / Bhuvan inventory), Population exposure (Census 2011 + OSM footprints) - representative values, not raster-processed."
+  },
+  "habitations": [
+    {
+      "id": "H-DRG-01",
+      "name": "Sialmari Char",
+      "district": "darrang",
+      "block": "Kharupetia",
+      "lat": 26.383,
+      "lon": 92.128,
+      "population": 2840,
+      "households": 612,
+      "exposed_pct": 1.0,
+      "gis": {
+        "rainfall_mm": 2300,
+        "elevation_m": 34,
+        "slope_deg": 0.2,
+        "soil": "sandy_silt_char",
+        "land_cover": "char_agriculture",
+        "distance_to_water_km": 0.4,
+        "years_flooded_5yr": 5,
+        "population_density_per_km2": 1120
+      },
+      "history": {
+        "embankment_breaches_5yr": 2,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 34,
+        "kutcha_housing_pct": 82,
+        "bpl_pct": 71
+      },
+      "infra": {
+        "road_type": "track",
+        "hospital_distance_km": 18,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 55,
+        "lightning_strike_density": 18,
+        "heatwave_days_per_year": 3,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Riverine char (sandbar island) settlement on the Brahmaputra. Inundated in each of the last five monsoons; boat access only during peak flow."
+    },
+    {
+      "id": "H-DRG-02",
+      "name": "Bhakatpara",
+      "district": "darrang",
+      "block": "Dalgaon",
+      "lat": 26.487,
+      "lon": 92.118,
+      "population": 4120,
+      "households": 886,
+      "exposed_pct": 0.65,
+      "gis": {
+        "rainfall_mm": 2250,
+        "elevation_m": 41,
+        "slope_deg": 0.4,
+        "soil": "silt_loam",
+        "land_cover": "agriculture",
+        "distance_to_water_km": 2.6,
+        "years_flooded_5yr": 3,
+        "population_density_per_km2": 880
+      },
+      "history": {
+        "embankment_breaches_5yr": 1,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 27,
+        "kutcha_housing_pct": 58,
+        "bpl_pct": 52
+      },
+      "infra": {
+        "road_type": "fair_weather",
+        "hospital_distance_km": 9,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 52,
+        "lightning_strike_density": 17,
+        "heatwave_days_per_year": 3,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Noa-Nadi floodplain village; embankment breach in 2022 inundated the southern hamlets."
+    },
+    {
+      "id": "H-DRG-03",
+      "name": "Baruajhar",
+      "district": "darrang",
+      "block": "Sipajhar",
+      "lat": 26.378,
+      "lon": 91.882,
+      "population": 3350,
+      "households": 724,
+      "exposed_pct": 0.55,
+      "gis": {
+        "rainfall_mm": 2200,
+        "elevation_m": 44,
+        "slope_deg": 0.5,
+        "soil": "silt_loam",
+        "land_cover": "agriculture",
+        "distance_to_water_km": 2.1,
+        "years_flooded_5yr": 3,
+        "population_density_per_km2": 760
+      },
+      "history": {
+        "embankment_breaches_5yr": 1,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 25,
+        "kutcha_housing_pct": 49,
+        "bpl_pct": 44
+      },
+      "infra": {
+        "road_type": "fair_weather",
+        "hospital_distance_km": 7,
+        "embankment_within_2km": true,
+        "school_in_floodplain": false
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 50,
+        "lightning_strike_density": 16,
+        "heatwave_days_per_year": 3,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 0
+      },
+      "notes": "Barnadi / Nanoi confluence zone south of Sipajhar."
+    },
+    {
+      "id": "H-DRG-04",
+      "name": "Kalaigaon North",
+      "district": "darrang",
+      "block": "Kalaigaon",
+      "lat": 26.57,
+      "lon": 92.03,
+      "population": 2100,
+      "households": 448,
+      "exposed_pct": 0.1,
+      "gis": {
+        "rainfall_mm": 2400,
+        "elevation_m": 78,
+        "slope_deg": 1.2,
+        "soil": "loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 6.5,
+        "years_flooded_5yr": 1,
+        "population_density_per_km2": 540
+      },
+      "history": {
+        "embankment_breaches_5yr": 0,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 21,
+        "kutcha_housing_pct": 31,
+        "bpl_pct": 28
+      },
+      "infra": {
+        "road_type": "all_weather",
+        "hospital_distance_km": 4,
+        "embankment_within_2km": false,
+        "school_in_floodplain": false
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 58,
+        "lightning_strike_density": 19,
+        "heatwave_days_per_year": 2,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Higher ground in the northern part of the district; comparison habitation with low flood exposure."
+    },
+    {
+      "id": "H-BPT-01",
+      "name": "Baghbar Char",
+      "district": "barpeta",
+      "block": "Baghbar",
+      "lat": 26.168,
+      "lon": 90.872,
+      "population": 4560,
+      "households": 978,
+      "exposed_pct": 0.95,
+      "gis": {
+        "rainfall_mm": 2450,
+        "elevation_m": 36,
+        "slope_deg": 0.2,
+        "soil": "sandy_silt_char",
+        "land_cover": "char_agriculture",
+        "distance_to_water_km": 0.6,
+        "years_flooded_5yr": 4,
+        "population_density_per_km2": 1240
+      },
+      "history": {
+        "embankment_breaches_5yr": 3,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 36,
+        "kutcha_housing_pct": 86,
+        "bpl_pct": 74
+      },
+      "infra": {
+        "road_type": "track",
+        "hospital_distance_km": 22,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 56,
+        "lightning_strike_density": 20,
+        "heatwave_days_per_year": 3,
+        "cyclone_wind_exposure": 2.5,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Dense char settlement on the Brahmaputra; demonstrates a carrying-capacity DEFICIT scenario."
+    },
+    {
+      "id": "H-BPT-02",
+      "name": "Mandia Block HQ area",
+      "district": "barpeta",
+      "block": "Mandia",
+      "lat": 26.262,
+      "lon": 90.912,
+      "population": 3780,
+      "households": 812,
+      "exposed_pct": 0.6,
+      "gis": {
+        "rainfall_mm": 2400,
+        "elevation_m": 40,
+        "slope_deg": 0.3,
+        "soil": "silt_loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 2.4,
+        "years_flooded_5yr": 3,
+        "population_density_per_km2": 960
+      },
+      "history": {
+        "embankment_breaches_5yr": 1,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 28,
+        "kutcha_housing_pct": 61,
+        "bpl_pct": 55
+      },
+      "infra": {
+        "road_type": "fair_weather",
+        "hospital_distance_km": 12,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 54,
+        "lightning_strike_density": 20,
+        "heatwave_days_per_year": 3,
+        "cyclone_wind_exposure": 2.5,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Beki river floodplain settlement."
+    },
+    {
+      "id": "H-DHB-01",
+      "name": "Kuntirchar",
+      "district": "dhubri",
+      "block": "Bilasipara",
+      "lat": 26.108,
+      "lon": 90.168,
+      "population": 3120,
+      "households": 668,
+      "exposed_pct": 0.9,
+      "gis": {
+        "rainfall_mm": 2650,
+        "elevation_m": 33,
+        "slope_deg": 0.2,
+        "soil": "sandy_silt_char",
+        "land_cover": "char_agriculture",
+        "distance_to_water_km": 0.5,
+        "years_flooded_5yr": 4,
+        "population_density_per_km2": 1310
+      },
+      "history": {
+        "embankment_breaches_5yr": 2,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 35,
+        "kutcha_housing_pct": 84,
+        "bpl_pct": 72
+      },
+      "infra": {
+        "road_type": "track",
+        "hospital_distance_km": 16,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 60,
+        "lightning_strike_density": 21,
+        "heatwave_days_per_year": 4,
+        "cyclone_wind_exposure": 3.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Char settlement south of Bilasipara on the Brahmaputra main channel."
+    },
+    {
+      "id": "H-DHB-02",
+      "name": "Chapar Ward 4",
+      "district": "dhubri",
+      "block": "Chapar",
+      "lat": 26.268,
+      "lon": 90.222,
+      "population": 2640,
+      "households": 572,
+      "exposed_pct": 0.35,
+      "gis": {
+        "rainfall_mm": 2600,
+        "elevation_m": 42,
+        "slope_deg": 0.5,
+        "soil": "silt_loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 3.8,
+        "years_flooded_5yr": 2,
+        "population_density_per_km2": 1480
+      },
+      "history": {
+        "embankment_breaches_5yr": 0,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 22,
+        "kutcha_housing_pct": 35,
+        "bpl_pct": 33
+      },
+      "infra": {
+        "road_type": "all_weather",
+        "hospital_distance_km": 5,
+        "embankment_within_2km": false,
+        "school_in_floodplain": false
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 58,
+        "lightning_strike_density": 21,
+        "heatwave_days_per_year": 4,
+        "cyclone_wind_exposure": 3.0,
+        "fire_alerts_5yr": 2
+      },
+      "notes": "Town ward on NH-17 alignment; drainage congestion rather than riverine flooding."
+    },
+    {
+      "id": "H-MRG-01",
+      "name": "Laharighat Char",
+      "district": "morigaon",
+      "block": "Laharighat",
+      "lat": 26.34,
+      "lon": 92.5,
+      "population": 3600,
+      "households": 782,
+      "exposed_pct": 0.92,
+      "gis": {
+        "rainfall_mm": 2150,
+        "elevation_m": 36,
+        "slope_deg": 0.2,
+        "soil": "sandy_silt_char",
+        "land_cover": "char_agriculture",
+        "distance_to_water_km": 0.7,
+        "years_flooded_5yr": 3,
+        "population_density_per_km2": 1050
+      },
+      "history": {
+        "embankment_breaches_5yr": 4,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 33,
+        "kutcha_housing_pct": 79,
+        "bpl_pct": 66
+      },
+      "infra": {
+        "road_type": "track",
+        "hospital_distance_km": 21,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 50,
+        "lightning_strike_density": 17,
+        "heatwave_days_per_year": 4,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Severely hit in the 2022 extreme event; multiple embankment breaches recorded."
+    },
+    {
+      "id": "H-MRG-02",
+      "name": "Bhuragaon",
+      "district": "morigaon",
+      "block": "Bhuragaon",
+      "lat": 26.336,
+      "lon": 92.292,
+      "population": 2980,
+      "households": 640,
+      "exposed_pct": 0.7,
+      "gis": {
+        "rainfall_mm": 2100,
+        "elevation_m": 39,
+        "slope_deg": 0.3,
+        "soil": "silty_clay",
+        "land_cover": "agriculture",
+        "distance_to_water_km": 1.3,
+        "years_flooded_5yr": 3,
+        "population_density_per_km2": 820
+      },
+      "history": {
+        "embankment_breaches_5yr": 2,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 29,
+        "kutcha_housing_pct": 63,
+        "bpl_pct": 57
+      },
+      "infra": {
+        "road_type": "fair_weather",
+        "hospital_distance_km": 13,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 50,
+        "lightning_strike_density": 17,
+        "heatwave_days_per_year": 4,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Brahmaputra south-bank floodplain village near Bhuragaon."
+    },
+    {
+      "id": "H-TMP-01",
+      "name": "Kumarikata",
+      "district": "tamulpur",
+      "block": "Tamulpur",
+      "lat": 26.742,
+      "lon": 91.718,
+      "population": 2450,
+      "households": 528,
+      "exposed_pct": 0.6,
+      "gis": {
+        "rainfall_mm": 3150,
+        "elevation_m": 92,
+        "slope_deg": 4.5,
+        "soil": "sandy_loam",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 1.1,
+        "years_flooded_5yr": 2,
+        "population_density_per_km2": 620
+      },
+      "history": {
+        "embankment_breaches_5yr": 3,
+        "past_landslide_events": 2
+      },
+      "social": {
+        "vulnerable_groups_pct": 26,
+        "kutcha_housing_pct": 54,
+        "bpl_pct": 49
+      },
+      "infra": {
+        "road_type": "fair_weather",
+        "hospital_distance_km": 14,
+        "embankment_within_2km": true,
+        "school_in_floodplain": false
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 95,
+        "lightning_strike_density": 22,
+        "heatwave_days_per_year": 1,
+        "cyclone_wind_exposure": 1.0,
+        "fire_alerts_5yr": 3
+      },
+      "notes": "Bhutan-foothill settlement on the Pagladiya; flash floods and debris flows after cloudbursts upstream."
+    },
+    {
+      "id": "H-TMP-02",
+      "name": "Goreswar Bazar",
+      "district": "tamulpur",
+      "block": "Goreswar",
+      "lat": 26.602,
+      "lon": 91.652,
+      "population": 3200,
+      "households": 690,
+      "exposed_pct": 0.3,
+      "gis": {
+        "rainfall_mm": 2900,
+        "elevation_m": 62,
+        "slope_deg": 1.8,
+        "soil": "loam",
+        "land_cover": "built_up_dense",
+        "distance_to_water_km": 2.9,
+        "years_flooded_5yr": 1,
+        "population_density_per_km2": 1100
+      },
+      "history": {
+        "embankment_breaches_5yr": 1,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 23,
+        "kutcha_housing_pct": 38,
+        "bpl_pct": 36
+      },
+      "infra": {
+        "road_type": "all_weather",
+        "hospital_distance_km": 6,
+        "embankment_within_2km": false,
+        "school_in_floodplain": false
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 80,
+        "lightning_strike_density": 21,
+        "heatwave_days_per_year": 1,
+        "cyclone_wind_exposure": 1.0,
+        "fire_alerts_5yr": 2
+      },
+      "notes": "Market town on the piedmont; moderate exposure."
+    },
+    {
+      "id": "H-KKJ-01",
+      "name": "Srirampur",
+      "district": "kokrajhar",
+      "block": "Gossaigaon",
+      "lat": 26.498,
+      "lon": 89.868,
+      "population": 2700,
+      "households": 586,
+      "exposed_pct": 0.4,
+      "gis": {
+        "rainfall_mm": 2800,
+        "elevation_m": 55,
+        "slope_deg": 1.4,
+        "soil": "sandy_loam",
+        "land_cover": "agriculture",
+        "distance_to_water_km": 1.8,
+        "years_flooded_5yr": 2,
+        "population_density_per_km2": 470
+      },
+      "history": {
+        "embankment_breaches_5yr": 1,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 24,
+        "kutcha_housing_pct": 47,
+        "bpl_pct": 43
+      },
+      "infra": {
+        "road_type": "all_weather",
+        "hospital_distance_km": 11,
+        "embankment_within_2km": true,
+        "school_in_floodplain": false
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 70,
+        "lightning_strike_density": 19,
+        "heatwave_days_per_year": 2,
+        "cyclone_wind_exposure": 1.5,
+        "fire_alerts_5yr": 2
+      },
+      "notes": "Sankosh river flank near the West Bengal border."
+    },
+    {
+      "id": "H-NGN-01",
+      "name": "Dhing Char",
+      "district": "nagaon",
+      "block": "Dhing",
+      "lat": 26.49,
+      "lon": 92.47,
+      "population": 3900,
+      "households": 842,
+      "exposed_pct": 0.8,
+      "gis": {
+        "rainfall_mm": 2000,
+        "elevation_m": 40,
+        "slope_deg": 0.2,
+        "soil": "sandy_silt_char",
+        "land_cover": "char_agriculture",
+        "distance_to_water_km": 0.9,
+        "years_flooded_5yr": 2,
+        "population_density_per_km2": 1180
+      },
+      "history": {
+        "embankment_breaches_5yr": 2,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 32,
+        "kutcha_housing_pct": 77,
+        "bpl_pct": 68
+      },
+      "infra": {
+        "road_type": "track",
+        "hospital_distance_km": 8,
+        "embankment_within_2km": true,
+        "school_in_floodplain": true
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 48,
+        "lightning_strike_density": 16,
+        "heatwave_days_per_year": 5,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Brahmaputra north-channel char near Dhing."
+    },
+    {
+      "id": "H-NGN-02",
+      "name": "Raha Kampur Road",
+      "district": "nagaon",
+      "block": "Raha",
+      "lat": 26.232,
+      "lon": 92.522,
+      "population": 2300,
+      "households": 498,
+      "exposed_pct": 0.25,
+      "gis": {
+        "rainfall_mm": 1950,
+        "elevation_m": 47,
+        "slope_deg": 0.6,
+        "soil": "silty_clay",
+        "land_cover": "built_up_sparse",
+        "distance_to_water_km": 3.5,
+        "years_flooded_5yr": 1,
+        "population_density_per_km2": 690
+      },
+      "history": {
+        "embankment_breaches_5yr": 0,
+        "past_landslide_events": 0
+      },
+      "social": {
+        "vulnerable_groups_pct": 22,
+        "kutcha_housing_pct": 36,
+        "bpl_pct": 34
+      },
+      "infra": {
+        "road_type": "all_weather",
+        "hospital_distance_km": 6,
+        "embankment_within_2km": false,
+        "school_in_floodplain": false
+      },
+      "indicators": {
+        "peak_rain_intensity_mm_hr": 46,
+        "lightning_strike_density": 16,
+        "heatwave_days_per_year": 5,
+        "cyclone_wind_exposure": 2.0,
+        "fire_alerts_5yr": 1
+      },
+      "notes": "Kolong river backwater zone on the Raha-Kampur road."
+    }
+  ]
+}

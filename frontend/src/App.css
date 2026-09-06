@@ -1,0 +1,7 @@
+.App {
+    min-height: 100vh;
+}
+
+.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 8px; }
+.scrollbar-thin::-webkit-scrollbar-track { background: transparent; }

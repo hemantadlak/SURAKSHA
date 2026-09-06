@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Phase 1: Seed data files (districts, habitations, sites, hazard profiles, infrastructure, GeoJSON)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 1: Scoring engine (risk, priority, sites, capacity, allocation, action plan) + routing (OSRM/cache/fallback)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 1: test_core.py - validate demo narrative, coordinates inside polygons, allocation reconciles, OSRM route",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 2: Design guidelines via design_agent",
+    "status": "in_progress"
+  },
+  {
+    "content": "Phase 2: Backend FastAPI endpoints + Mongo persistence (field reports, action plans, alerts ack, route cache, hazard config)",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: Frontend - shell, landing, command center map + intelligence panel + KPIs",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: Frontend - habitations table, workflow stepper (priority/sites/capacity/plan/route/action) with mini-map",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: Frontend - hazard intelligence, red zones, alerts, field reports, citizen view",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: All user stories covered in development and testing",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: End to End Testing using Testing Agent (10-step demo flow)",
+    "status": "pending"
+  }
+]

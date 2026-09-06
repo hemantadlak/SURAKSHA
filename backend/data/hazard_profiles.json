@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "label": "Prototype scoring model - not an official government formula",
+    "note": "Composite red-zone score = sum(weight_h x hazard_subscore_h). Weights are configurable per regional hazard profile. Coastal erosion is not applicable to Assam and carries zero weight."
+  },
+  "hazard_types": [
+    {"id": "flood", "label": "Flood", "icon": "droplet", "source": "ASDMA daily bulletins, CWC flood forecasts", "data_status": "Seed data (ASDMA-derived)", "indicators": "affected population, severity index, recurrence, 8 GIS overlay layers"},
+    {"id": "landslide", "label": "Landslide", "icon": "triangle", "source": "GSI NLSM, Bhuvan landslide inventory", "data_status": "Prototype / Illustrative", "indicators": "slope angle, soil saturation, past events, terrain instability"},
+    {"id": "cloudburst", "label": "Cloudburst", "icon": "cloud-rain", "source": "IMD rainfall / radar", "data_status": "Prototype / Illustrative", "indicators": "peak rainfall intensity (mm/hr), short-duration extreme rainfall"},
+    {"id": "coastal_erosion", "label": "Coastal Erosion", "icon": "waves", "source": "INCOIS, NRSC coastal vulnerability", "data_status": "Not applicable (Assam is inland)", "indicators": "shoreline retreat, storm-surge exposure"},
+    {"id": "cyclone", "label": "Cyclone / Nor'wester", "icon": "wind", "source": "IMD cyclone tracks & warnings", "data_status": "Prototype / Illustrative", "indicators": "wind category, track proximity, landfall frequency"},
+    {"id": "earthquake", "label": "Earthquake", "icon": "activity", "source": "BIS/GSI seismic zonation (Assam: Zone V), BMTPC", "data_status": "Zone from BIS map; liquefaction proxy illustrative", "indicators": "seismic zone, soil liquefaction proxy, housing vulnerability"},
+    {"id": "lightning", "label": "Lightning", "icon": "zap", "source": "NRSC lightning detection network", "data_status": "Prototype / Illustrative", "indicators": "strike density, seasonal frequency"},
+    {"id": "heatwave", "label": "Heatwave", "icon": "thermometer", "source": "IMD heatwave warnings", "data_status": "Prototype / Illustrative", "indicators": "consecutive extreme-heat days, outdoor-worker exposure"},
+    {"id": "fire", "label": "Fire (forest / urban)", "icon": "flame", "source": "FSI FAST alerts", "data_status": "Prototype / Illustrative", "indicators": "fire alert frequency, proximity to habitation"}
+  ],
+  "profiles": {
+    "river_basin": {
+      "label": "Brahmaputra river-basin plains",
+      "weights": {"flood": 0.55, "earthquake": 0.15, "lightning": 0.10, "cloudburst": 0.05, "heatwave": 0.05, "landslide": 0.03, "cyclone": 0.04, "fire": 0.03, "coastal_erosion": 0.0}
+    },
+    "foothill": {
+      "label": "Bhutan foothill / piedmont",
+      "weights": {"flood": 0.40, "landslide": 0.15, "cloudburst": 0.15, "earthquake": 0.15, "lightning": 0.08, "heatwave": 0.02, "fire": 0.05, "cyclone": 0.0, "coastal_erosion": 0.0}
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "_meta": {
+    "source": "Derived from ASDMA (Assam State Disaster Management Authority) daily flood bulletins, 2019-2026. Aggregated district-level figures. Illustrative / derived classification - NOT an official red-zone declaration.",
+    "label": "ASDMA-derived seed data (illustrative classification)",
+    "snapshot_note": "Peak-day bulletin snapshots are representative records reconstructed for the prototype and labelled illustrative."
+  },
+  "districts": [
+    {
+      "id": "darrang",
+      "name": "Darrang",
+      "geo_match": "Darrang",
+      "hazard_profile": "river_basin",
+      "centroid": [
+        26.45,
+        92.03
+      ],
+      "flood_events_5yr": 4,
+      "total_affected": 630000,
+      "deaths": 51,
+      "avg_severity_index": 7.33,
+      "risk_category": "Very High",
+      "seismic_zone": 5,
+      "population_density_per_km2": 586,
+      "major_rivers": [
+        "Brahmaputra",
+        "Noa-Nadi",
+        "Mangaldai",
+        "Barnadi"
+      ],
+      "peak_day_snapshots": [
+        {
+          "report_date": "2022-06-22",
+          "affected_population": 214500,
+          "deaths": 14,
+          "villages_affected": 312,
+          "displaced_population": 38200,
+          "relief_camps_operational": 41,
+          "people_sheltered": 21400,
+          "livestock_affected": 168000,
+          "cropland_submerged_hectares": 18450,
+          "embankment_breaches": 6
+        },
+        {
+          "report_date": "2024-07-05",
+          "affected_population": 168300,
+          "deaths": 9,
+          "villages_affected": 241,
+          "displaced_population": 29600,
+          "relief_camps_operational": 33,
+          "people_sheltered": 16800,
+          "livestock_affected": 121000,
+          "cropland_submerged_hectares": 14200,
+          "embankment_breaches": 4
+        }
+      ],
+      "river_bank": "north"
+    },
+    {
+      "id": "barpeta",
+      "name": "Barpeta",
+      "geo_match": "Barpeta",
+      "hazard_profile": "river_basin",
+      "centroid": [
+        26.32,
+        91.0
+      ],
+      "flood_events_5yr": 3,
+      "total_affected": 692000,
+      "deaths": 30,
+      "avg_severity_index": 7.3,
+      "risk_category": "Very High",
+      "seismic_zone": 5,
+      "population_density_per_km2": 742,
+      "major_rivers": [
+        "Brahmaputra",
+        "Beki",
+        "Manas",
+        "Pahumara"
+      ],
+      "peak_day_snapshots": [
+        {
+          "report_date": "2022-06-21",
+          "affected_population": 312000,
+          "deaths": 12,
+          "villages_affected": 486,
+          "displaced_population": 61200,
+          "relief_camps_operational": 74,
+          "people_sheltered": 42300,
+          "livestock_affected": 236000,
+          "cropland_submerged_hectares": 24100,
+          "embankment_breaches": 9
+        }
+      ],
+      "river_bank": "north"
+    },
+    {
+      "id": "dhubri",
+      "name": "Dhubri",
+      "geo_match": "Dhubri",
+      "hazard_profile": "river_basin",
+      "centroid": [
+        26.02,
+        89.98
+      ],
+      "flood_events_5yr": 3,
+      "total_affected": 456000,
+      "deaths": 26,
+      "avg_severity_index": 7.0,
+      "risk_category": "Very High",
+      "seismic_zone": 5,
+      "population_density_per_km2": 1171,
+      "major_rivers": [
+        "Brahmaputra",
+        "Gadadhar",
+        "Sankosh"
+      ],
+      "peak_day_snapshots": [
+        {
+          "report_date": "2022-06-24",
+          "affected_population": 241000,
+          "deaths": 11,
+          "villages_affected": 398,
+          "displaced_population": 44100,
+          "relief_camps_operational": 58,
+          "people_sheltered": 31200,
+          "livestock_affected": 189000,
+          "cropland_submerged_hectares": 16700,
+          "embankment_breaches": 5
+        }
+      ],
+      "river_bank": "north"
+    },
+    {
+      "id": "tamulpur",
+      "name": "Tamulpur",
+      "geo_match": "Baksa",
+      "geo_note": "Tamulpur district was carved out of Baksa in 2022. Boundary shown is the Census 2011 Baksa polygon (illustrative).",
+      "hazard_profile": "foothill",
+      "centroid": [
+        26.65,
+        91.65
+      ],
+      "flood_events_5yr": 2,
+      "total_affected": 290000,
+      "deaths": 33,
+      "avg_severity_index": 7.95,
+      "risk_category": "Critical",
+      "seismic_zone": 5,
+      "population_density_per_km2": 475,
+      "major_rivers": [
+        "Pagladiya",
+        "Puthimari",
+        "Baralia"
+      ],
+      "peak_day_snapshots": [
+        {
+          "report_date": "2023-06-19",
+          "affected_population": 152000,
+          "deaths": 19,
+          "villages_affected": 178,
+          "displaced_population": 27300,
+          "relief_camps_operational": 22,
+          "people_sheltered": 12600,
+          "livestock_affected": 71000,
+          "cropland_submerged_hectares": 8900,
+          "embankment_breaches": 7
+        }
+      ],
+      "river_bank": "north"
+    },
+    {
+      "id": "morigaon",
+      "name": "Morigaon",
+      "geo_match": "Morigaon",
+      "hazard_profile": "river_basin",
+      "centroid": [
+        26.25,
+        92.34
+      ],
+      "flood_events_5yr": 1,
+      "total_affected": 521000,
+      "deaths": 15,
+      "avg_severity_index": 9.2,
+      "risk_category": "Critical",
+      "risk_note": "Single extreme event",
+      "seismic_zone": 5,
+      "population_density_per_km2": 618,
+      "major_rivers": [
+        "Brahmaputra",
+        "Kolong",
+        "Kopili"
+      ],
+      "peak_day_snapshots": [
+        {
+          "report_date": "2022-06-23",
+          "affected_population": 521000,
+          "deaths": 15,
+          "villages_affected": 612,
+          "displaced_population": 98700,
+          "relief_camps_operational": 102,
+          "people_sheltered": 64800,
+          "livestock_affected": 402000,
+          "cropland_submerged_hectares": 31200,
+          "embankment_breaches": 12
+        }
+      ],
+      "river_bank": "south"
+    },
+    {
+      "id": "kokrajhar",
+      "name": "Kokrajhar",
+      "geo_match": "Kokrajhar",
+      "hazard_profile": "foothill",
+      "centroid": [
+        26.5,
+        90.2
+      ],
+      "flood_events_5yr": 2,
+      "total_affected": 175000,
+      "deaths": 13,
+      "avg_severity_index": 6.05,
+      "risk_category": "High",
+      "seismic_zone": 5,
+      "population_density_per_km2": 280,
+      "major_rivers": [
+        "Sankosh",
+        "Gaurang",
+        "Champamati"
+      ],
+      "peak_day_snapshots": [
+        {
+          "report_date": "2023-08-14",
+          "affected_population": 96000,
+          "deaths": 7,
+          "villages_affected": 142,
+          "displaced_population": 14300,
+          "relief_camps_operational": 18,
+          "people_sheltered": 8200,
+          "livestock_affected": 52000,
+          "cropland_submerged_hectares": 6100,
+          "embankment_breaches": 3
+        }
+      ],
+      "river_bank": "north"
+    },
+    {
+      "id": "nagaon",
+      "name": "Nagaon",
+      "geo_match": "Nagaon",
+      "hazard_profile": "river_basin",
+      "centroid": [
+        26.35,
+        92.68
+      ],
+      "flood_events_5yr": 2,
+      "total_affected": 176292,
+      "deaths": 19,
+      "avg_severity_index": 6.45,
+      "risk_category": "High",
+      "seismic_zone": 5,
+      "population_density_per_km2": 711,
+      "major_rivers": [
+        "Brahmaputra",
+        "Kolong",
+        "Kopili"
+      ],
+      "peak_day_snapshots": [
+        {
+          "report_date": "2022-06-20",
+          "affected_population": 121000,
+          "deaths": 12,
+          "villages_affected": 204,
+          "displaced_population": 22800,
+          "relief_camps_operational": 29,
+          "people_sheltered": 14100,
+          "livestock_affected": 88000,
+          "cropland_submerged_hectares": 9800,
+          "embankment_breaches": 4
+        }
+      ],
+      "river_bank": "south"
+    }
+  ]
+}
