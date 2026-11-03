@@ -87,3 +87,7 @@ credentials.json
 *.key
 .credentials
 frontend/node_modules/.cache/default-development/0.pack
+
+# Keep local setup templates available to contributors.
+!backend/.env.example
+!frontend/.env.example
